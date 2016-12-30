@@ -1,0 +1,166 @@
+th {
+	padding-bottom: 1.2em;
+}
+
+td:nth-child(2) {
+	padding-left: 2em;
+}
+
+body {
+	margin: 0;
+	font-family: 'Lora';
+}
+
+table {
+	width: 60em;
+	margin: 0 auto;
+	border-collapse: collapse;
+	font-size: 11pt;
+}
+
+nav {
+	background-color: #FF743D;
+	color: white;
+	width: 100%;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+nav ul {
+	display: inline;
+	margin-left: -6em;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	padding-right: 2em;
+	font-size: 14pt;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.discRow {
+	cursor: pointer;
+}
+
+.count {
+	font-weight: 800;
+	float: left;
+}
+
+.form {
+	width: 30em;
+	margin: 5em auto;
+}
+
+.form label {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16pt;
+}
+
+.form input {
+	border: 0;
+	background-color: #e4ffbd;
+	font-size: 13pt;
+	padding: 0.5em;
+	margin-bottom: 1em;;
+	display: block;
+	width: 100%;
+}
+
+.form button {
+	width: 100%;
+	font-size: 15pt;
+	padding: 1em;
+	border: 0;
+	background-color: #fdeeff;
+}
+
+.form select {
+	width:100%;
+	padding: 1em;
+	border: 0;
+	font-size: 14pt;
+	background-color: #d7fff3;
+	margin-bottom: 1em;
+}
+
+#editButton {
+	width: 50%;
+	background-color: #ffacfe;
+}
+
+#deleteButton {
+	width: 50%;
+	background-color: #ddbeff;
+}
+
+#titleFilter {
+	width: 100%;
+	font-size: 25pt;
+	border: 0;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+.form .completeDisc {
+	margin-bottom: 1em;
+	background-color: #a8ffae;
+}
+
+.form .pendingDisc {
+	margin-bottom: 1em;
+	background-color: #ffbaba;
+}
+
+.pendingListItem {
+	background-color: #ffbaba;
+}
+
+td {
+}
+
+.card {
+	background-color: #373634;
+	color: white;
+	height: 5em;
+	width: 40em;
+	-webkit-box-shadow: 3px 3px 4px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 4px -2px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 4px -2px rgba(0,0,0,0.75);
+	font-family: 'Lora';
+	margin: 0 auto;
+	margin-bottom: 2em;
+	cursor: pointer;
+}
+.bar {
+	padding-bottom: 0.2em;
+	padding-top: 0.2em;
+	color: white;
+	margin-bottom: 0.8em;
+}
+.date {
+	float: right;
+	padding-right: 1em;
+}
+.owner {
+	padding-left: 1em;
+}
+.title {
+	font-size: 13pt;
+	padding-left: 1em;
+}
+
+.completeCard .bar {
+	background-color: #37c77d;
+}
+
+.pendingCard .bar {
+	background-color: #e40d40;
+}

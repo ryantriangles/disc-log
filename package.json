@@ -1,0 +1,21 @@
+{
+  "name": "disc-log",
+  "version": "1.0.0",
+  "description": "CRUD application for managing a disc library",
+  "main": "index.js",
+  "scripts": {
+    "build": "elm-make src/frontend/Main.elm --output build/main.js",
+    "start": "node src/backend/index.js"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Ryan Plant",
+    "email": "ryan@ryanplant.net"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "sqlite3": "^3.1.8"
+  }
+}
